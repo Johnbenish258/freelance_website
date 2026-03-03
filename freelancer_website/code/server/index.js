@@ -405,3 +405,6 @@ mongoose.connect('mongodb+srv://Johnbenish178:johnbenish178@freelancer.uw0f8fi.m
         console.log(`Running @ ${PORT}`);
     });
 }).catch((e)=> console.log(`Error in db connection ${e}`));
+app.get("/", (req, res) => {
+    res.send("Backend is running successfully 🚀");
+});
