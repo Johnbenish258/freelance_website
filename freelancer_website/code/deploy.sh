@@ -2,7 +2,7 @@
 
 APP_NAME="node-app"
 IMAGE_NAME="node"
-PORT=5000
+PORT=6001
 
 echo "🔄 Pulling latest code from GitHub..."
 git pull origin main
