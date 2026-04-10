@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run your Node.js app	
-CMD ["node", "code/server/index.js"]
+CMD ["node", "server/index.js"]
